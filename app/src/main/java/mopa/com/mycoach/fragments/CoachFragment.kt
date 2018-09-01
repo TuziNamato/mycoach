@@ -1,18 +1,29 @@
-package mopa.com.mycoach_10
+package mopa.com.mycoach.fragments
 
-import androidx.appcompat.app.AppCompatActivity
+
+import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
-import kotlinx.android.synthetic.main.activity_main.*
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import kotlinx.android.synthetic.main.fragment_coach.*
+
+import mopa.com.mycoach.R
 import java.util.*
 
-class MainActivity : AppCompatActivity() {
+class CoachFragment : Fragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+                              savedInstanceState: Bundle?): View? {
+        return inflater.inflate(R.layout.fragment_coach, container, false)
+    }
 
-        var questions = ArrayList<String>().apply {
+    @SuppressLint("SetTextI18n")
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val questions = ArrayList<String>().apply {
             add("Como você se imagina fazendo sua diferença e servindo com excelência no futuro?")
             add("Quais dos seus objetivos você considera os mais significativos? Quais trazem mais entusiasmo, conexão e satisfação?")
             add("Que habilidades você se imagina desenvolvendo no futuro que são essenciais para seu sucesso?")
@@ -58,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             add("O que você pode fazer para demonstrar mais paciência?")
         }
 
-        var habits = ArrayList<String>().apply {
+        val habits = ArrayList<String>().apply {
             add("Clareza")
             add("Clareza")
             add("Clareza")
@@ -100,9 +111,8 @@ class MainActivity : AppCompatActivity() {
             add("Influência")
             add("Influência")
             add("Influência")
-
-            add("Temp")
-            add("Temp")
+            add("Influência")
+            add("Influência")
         }
 
         buttonId.setOnClickListener{
@@ -112,4 +122,6 @@ class MainActivity : AppCompatActivity() {
             better.text = "Como levar isso para o próximo nível?"
         }
     }
+
+
 }
