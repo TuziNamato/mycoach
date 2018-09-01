@@ -1,4 +1,4 @@
-package mopa.com.mycoach_10
+package mopa.com.mycoach
 
 import org.junit.Test
 
