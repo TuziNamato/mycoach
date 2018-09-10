@@ -54,7 +54,7 @@ class CoachFragment : Fragment() {
             add("O que você pode fazer para expressar mais para as pessoas ao seu redor seus verdadeiros pensamentos e sentimentos?")
             add("O que você pode fazer para expressar mais para as pessoas ao seu redor seus sonhos?")
             add("O que você pode fazer para sonhar mais alto?")
-            add("Por quem você luta?")
+            add("Por quem você luta que mais te dá coragem?")
 
             add("O que você quer que as pessoas pensem sobre elas mesmas?")
             add("O que você quer que as pessoas pensem sobre outras pessoas?")
@@ -63,8 +63,6 @@ class CoachFragment : Fragment() {
             add("O que você pode fazer para desafiar mais as pessoas a desenvolverem o nivel de conexão delas com outras pessoas?")
             add("O que você pode fazer para desafiar mais as pessoas a contribuirem com maiores níveis de excelência e distinção?")
             add("O que você pode fazer para ser um bom exemplo a ser seguido, alguém que as pessoas admiram?")
-            add("O que você pode fazer para demonstrar mais reconhecimento e valorização?")
-            add("O que você pode fazer para demonstrar mais paciência?")
             add("O que você pode fazer para demonstrar mais reconhecimento e valorização?")
             add("O que você pode fazer para demonstrar mais paciência?")
         }
@@ -102,8 +100,6 @@ class CoachFragment : Fragment() {
             add("Coragem")
             add("Coragem")
 
-            add("Influência")
-            add("Influência")
             add("Influência")
             add("Influência")
             add("Influência")
