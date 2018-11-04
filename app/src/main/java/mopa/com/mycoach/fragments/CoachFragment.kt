@@ -25,11 +25,12 @@ class CoachFragment : Fragment() {
 
         val questions = ArrayList<String>().apply {
             add("Como você se imagina fazendo sua diferença e servindo com excelência no futuro?")
-            add("Quais dos seus objetivos você considera os mais significativos? Quais trazem mais entusiasmo, conexão e satisfação?")
+            add("Quais dos seus esforços você considera os mais significativos? Quais trazem mais entusiasmo, conexão e satisfação?")
             add("Que habilidades você se imagina desenvolvendo no futuro que são essenciais para seu sucesso?")
             add("Como você se imagina socialmente no futuro?")
-            add("Quais os principais sentimento que você quer sentir ao longo do dia?")
+            add("Quais os principais sentimentos que você quer sentir ao longo do dia?")
             add("Quais características você imagina que definirão você no futuro?")
+            add("Que legado você deseja deixar na sua universidade? Na sua equipe? Na sua família? Nos seus amigos?")
 
             add("O que você pode fazer para se sentir no seu melhor estado possível ao longo do dia?")
             add("O que você pode fazer para se divertir mais durante suas atividades?")
@@ -49,6 +50,9 @@ class CoachFragment : Fragment() {
             add("O que você pode fazer para investir menos tempo em esforços menos importantes?")
             add("Quais são os 5 objetivos que devem ser concluídos para que seu sonho se concretize?")
             add("Quais são as 5 principais skills que você precisa desenvolver para ser a pessoa que você quer ser em 3 anos?")
+            add("Qual o objetivo desse mês para se tornar uma melhor pessoa?")
+            add("Qual o objetivo desse mês para desenvolver seus relacionamentos?")
+            add("Qual o objetivo desse mês para desenvolver sua carreira e contribuição?")
 
             add("Como a melhor versão de você lida com situações extremamentes difíceis?")
             add("O que você pode fazer para expressar mais para as pessoas ao seu redor seus verdadeiros pensamentos e sentimentos?")
@@ -59,9 +63,9 @@ class CoachFragment : Fragment() {
             add("O que você quer que as pessoas pensem sobre elas mesmas?")
             add("O que você quer que as pessoas pensem sobre outras pessoas?")
             add("O que você quer que as pessoas pensem sobre o mundo como um todo?")
-            add("O que você pode fazer para desafiar mais as pessoas a desenvolverem o carater delas?")
-            add("O que você pode fazer para desafiar mais as pessoas a desenvolverem o nivel de conexão delas com outras pessoas?")
-            add("O que você pode fazer para desafiar mais as pessoas a contribuirem com maiores níveis de excelência e distinção?")
+            add("O que você pode fazer para desafiar mais as pessoas a desenvolverem o caráter delas?")
+            add("O que você pode fazer para desafiar mais as pessoas a desenvolverem o nível de conexão delas com outras pessoas?")
+            add("O que você pode fazer para desafiar mais as pessoas a contribuírem com maiores níveis de excelência e distinção?")
             add("O que você pode fazer para ser um bom exemplo a ser seguido, alguém que as pessoas admiram?")
             add("O que você pode fazer para demonstrar mais reconhecimento e valorização?")
             add("O que você pode fazer para demonstrar mais paciência?")
@@ -74,6 +78,7 @@ class CoachFragment : Fragment() {
             add("Clareza")
             add("Clareza")
             add("Clareza")
+            add("Clareza")
 
             add("Energia")
             add("Energia")
@@ -88,6 +93,9 @@ class CoachFragment : Fragment() {
             add("Necessidade")
             add("Necessidade")
 
+            add("Produtividade")
+            add("Produtividade")
+            add("Produtividade")
             add("Produtividade")
             add("Produtividade")
             add("Produtividade")
